@@ -4,6 +4,8 @@
   {% include head.html %}
 
   <body>
+  
+	{% include google_analytics.html %}
 
     <div class="container content">
       <header class="masthead">
@@ -14,12 +16,16 @@
       </header>
 
       <main>
+	  
         {{ content }}
+		
+		{% include comments.html %}
+		
       </main>
 
       <footer class="footer">
         <small>
-          Made using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://getpoole.com/" target="_blank">Poole</a>. View this website on <a href="https://github.com/gamehelp16/gamehelp16.github.io" target="_blank">GitHub</a>
+          Made using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://getpoole.com/" target="_blank">Poole</a>. View this website on <a href="https://github.com/gamehelp16/gamehelp16.github.io" target="_blank">GitHub</a>.
         </small>
       </footer>
     </div>
