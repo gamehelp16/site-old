@@ -69,7 +69,7 @@ Great! 2500 more gold bars! Now you have <span id="gb-5700">5700</span> of them!
 
 ##The Fifth Code
 
-> towiiag g se   rir,oaoan   ft ofo srtod tddyi ot mdy lugelelmwon foemsthiuaa ttclntclga  bhhs
+> towiiag g se&nbsp;&nbsp;&nbsp;rir,oaoan&nbsp;&nbsp;&nbsp;ft ofo srtod tddyi ot mdy lugelelmwon foemsthiuaa ttclntclga&nbsp;&nbsp;bhhs
 
 The fifth code is the hardest one of them all (please don't hate me for this). People seem to not be able to solve this without looking at the source code. Well, now I'm gonna tell you how to properly solve the code (I have told this on Reddit before in the comments section. But not many people seem to saw it).
 
