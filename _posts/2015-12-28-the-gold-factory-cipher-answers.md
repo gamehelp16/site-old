@@ -25,7 +25,7 @@ window.onload = function() {
 
 *This post is about my first incremental game [The Gold Factory](http://gamehelp16.github.io/thegoldfactory/). If you haven't played it yet then probably you want to play it first before reading this post.*
 
-*WARNING: As the title says, this post contains answers to the cipher codes in the game. If you want to try solving them first then please stop reading.*
+***WARNING:*** *As the title says, this post contains answers to the cipher codes in the game. If you want to try solving them first then please stop reading.*
 
 Now you have <span id="gb">0</span> gold bars.
 
@@ -37,7 +37,7 @@ In the early game, you can solve some codes to earn some extra gold bars to save
 
 This one is a very simple one, each number represents a letter where 1 = A, 2 = B, 3 = C and so on. The answer to this code is `master branch`.
 
-Great! You have earned yourself 200 gold bars! Now you have <span id="gb-200">0</span> gold bars.
+Great! You have earned yourself 200 gold bars! Now you have <span id="gb-200">200</span> gold bars.
 
 ##The Second Code
 
@@ -47,7 +47,7 @@ For the second code, I used a technique called "[Caesarian Shift](http://rumkin.
 
 **Tip:** The N value is 8 and the answer is `There is a treasure hidden somewhere, it is located at a secret place in the Pacific Ocean` (This sentence has nothing to do with the game anyway, I just made it up).
 
-Now you have earned another 1000 gold bars! You have <span id="gb-1200">0</span> gold bars.
+Now you have earned another 1000 gold bars! You have <span id="gb-1200">1200</span> gold bars.
 
 ##The Third Code
 
@@ -55,19 +55,19 @@ Now you have earned another 1000 gold bars! You have <span id="gb-1200">0</span>
 
 For this one you will need to look at your keyboard (a QWERTY keyboard, specifically). Simply replace each character with the letter on the left side of that character on your keyboard. The answer is `In a world full of blocks`.
 
-2000 gold bars has been earned! Now you have <span id="gb-3200">0</span> gold bars.
+2000 gold bars has been earned! Now you have <span id="gb-3200">3200</span> gold bars.
 
-#The Fourth Code
+##The Fourth Code
 
 > VGhlIHBsYW50IGlzIGZhbW91cyBiZWNhdXNlIG9mIHRoZSBhYmlsaXR5IHRvIGN1cmUgc29tZSBkaXNlYXNlcw==
 
-This one is a base64 encoded message. To decode it, you need to use a tool like this one: [base64decode.org](https://www.base64decode.org/). Alternatively, you could use your browser to decode the message. To do this, open your browser's developer console (By pressing F12 or Ctrl+Shift+J. If it doesn't work try searching the keyboard shortcut for your browser) then type in this code `atob('&lt;insert the code here&gt;')` and you get the answer (don't forget to remove the quotes first!)
+This one is a base64 encoded message. To decode it, you need to use a tool like this one: [base64decode.org](https://www.base64decode.org/). Alternatively, you could use your browser to decode the message. To do this, open your browser's developer console (By pressing F12 or Ctrl+Shift+J. If it doesn't work try searching the keyboard shortcut for your browser) then type in this code `atob('<insert the code here>')` and you get the answer (don't forget to remove the quotes first!)
 
 The answer is: `The plant is famous because of the ability to cure some diseases`.
 
-Great! 2500 more gold bars! Now you have <span id="gb-5700">0</span> of them!
+Great! 2500 more gold bars! Now you have <span id="gb-5700">5700</span> of them!
 
-#The Fifth Code
+##The Fifth Code
 
 > towiiag g se   rir,oaoan   ft ofo srtod tddyi ot mdy lugelelmwon foemsthiuaa ttclntclga  bhhs
 
@@ -79,6 +79,6 @@ To solve this code, open the railfence cipher tool linked earlier, put in the co
 
 The answer to this code is `the gold factory was built long time ago, and it is the most famous gold factory in the world`.
 
-Congratulations! Now you have solved the final ultimate code and earned a nice amount of 7500 gold bars! You have <span id="gb-13200">0</span> gold bars now!
+Congratulations! Now you have solved the final ultimate code and earned a nice amount of 7500 gold bars! You have <span id="gb-13200">13200</span> gold bars now!
 
 And that's it guys, the guide to solve those 5 codes. Now go buy some pizzas! :)
