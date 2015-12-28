@@ -71,6 +71,8 @@ Great! 2500 more gold bars! Now you have <span id="gb-5700">5700</span> of them!
 
 > towiiag g se&nbsp;&nbsp;&nbsp;rir,oaoan&nbsp;&nbsp;&nbsp;ft ofo srtod tddyi ot mdy lugelelmwon foemsthiuaa ttclntclga&nbsp;&nbsp;bhhs
 
+*After around 2 years I just realized that there is a mistake on this code in the game. I didn't change those multiple spaces to `&nbsp;`, and therefore the multiple spaces in the code are shown as just one space only, thus the code can't be decrypted. The code in the game has been fixed, I'm really really sorry for this.*
+
 The fifth code is the hardest one of them all (please don't hate me for this). People seem to not be able to solve this without looking at the source code. Well, now I'm gonna tell you how to properly solve the code (I have told this on Reddit before in the comments section. But not many people seem to saw it).
 
 The past me a few years ago wants to make a really hard code to solve, and while browsing [Rumkin's Cipher Tools](http://rumkin.com/tools/cipher/) I found a cipher called '[Railfence](http://rumkin.com/tools/cipher/railfence.php)' (for more info about the cipher just click the link). Anyways, since past me wanted to make a hard one, I decided to railfence encode it 3 times (with the default parameters), and thus the code is born.
