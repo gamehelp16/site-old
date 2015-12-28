@@ -53,7 +53,7 @@ Now you have earned another 1000 gold bars! You have <span id="gb-1200">1200</sp
 
 > Om s ept;f gi;; pg n;pvld
 
-For this one you will need to look at your keyboard (a QWERTY keyboard, specifically). Simply replace each character with the letter on the left side of that character on your keyboard. The answer is `In a world full of blocks`.
+For this one you will need to look at your keyboard (a [US standard QWERTY keyboard](https://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg), specifically). Simply replace each character with the letter on the left side of that character on your keyboard. The answer is `In a world full of blocks`.
 
 2000 gold bars has been earned! Now you have <span id="gb-3200">3200</span> gold bars.
 
