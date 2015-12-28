@@ -59,7 +59,11 @@ For this one you will need to look at your keyboard (a QWERTY keyboard, specific
 
 ##The Fourth Code
 
+<div style="word-wrap:break-word;">
+
 > VGhlIHBsYW50IGlzIGZhbW91cyBiZWNhdXNlIG9mIHRoZSBhYmlsaXR5IHRvIGN1cmUgc29tZSBkaXNlYXNlcw==
+
+</div>
 
 This one is a base64 encoded message. To decode it, you need to use a tool like this one: [base64decode.org](https://www.base64decode.org/). Alternatively, you could use your browser to decode the message. To do this, open your browser's developer console (By pressing F12 or Ctrl+Shift+J. If it doesn't work try searching the keyboard shortcut for your browser) then type in this code `atob('<insert the code here>')` and you get the answer (don't forget to remove the quotes first!)
 
