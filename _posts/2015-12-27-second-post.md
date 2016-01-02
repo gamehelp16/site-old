@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Second Post
+description: Second blog post
 comments: true
 ---
 

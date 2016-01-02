@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Gold Factory Cipher Answers
+description: The answers and explanation to my game 'The Gold Factory'
 comments: true
 ---
 
