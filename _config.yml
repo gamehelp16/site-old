@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               Title
 tagline:             Insert Tagline Here
-url:                 http://gamehelp16.github.io/
+url:                 http://gamehelp16.github.io
 paginate:            1
 baseurl:             ""
 
