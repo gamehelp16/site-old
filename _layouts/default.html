@@ -6,14 +6,27 @@
   <body>
   
 	{% include analytics.html %}
-
-    <div class="container content">
-      <header class="masthead">
+	
+	{% if page.title == "Home" %}
+      
+      <header class="masthead home-page">
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
         </h3>
       </header>
+	  
+    {% else %}
+      
+	   <header class="masthead" style="margin-bottom:2rem;">
+		<nav>
+			<a class="back-to-home" href="#"><i>&lsaquo;</i> BACK</a>
+		</nav>
+      </header>
+	  
+    {% endif %}
+	
+	<div class="container content">
 
       <main>
 	  
