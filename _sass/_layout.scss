@@ -2,7 +2,7 @@
 //
 // Styles for managing the structural hierarchy of the site.
 
-.container, .masthead .home-page {
+.container, .masthead.home-page {
   max-width: 40rem;
   padding-left:  1.5rem;
   padding-right: 1.5rem;
@@ -44,6 +44,7 @@ nav {
 	color: #bbb;
 	padding: .5rem 1rem;
 	text-align: center;
+	text-decoration: none;
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
 	transition: all .1s linear;
@@ -59,5 +60,4 @@ nav {
 
 .back-to-home:hover {
 	color: #777;
-	text-decoration: none;
 }
