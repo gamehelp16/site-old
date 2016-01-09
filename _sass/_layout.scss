@@ -44,7 +44,7 @@ nav {
 	color: #bbb;
 	padding: .5rem 1rem;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none !important;
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
 	transition: all .1s linear;
