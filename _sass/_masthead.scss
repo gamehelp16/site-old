@@ -24,3 +24,54 @@
     letter-spacing: 0;
   }
 }
+
+nav {
+
+	margin-top: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	
+	@media (max-width: 800px) {
+		margin-left: .75rem;
+		margin-right: .75rem;
+	}
+	
+}
+
+.header-link {
+	color: #bbb;
+	padding: .5rem 1rem;
+	text-align: center;
+	text-decoration: none !important;
+	-webkit-transition: all .1s linear;
+	-moz-transition: all .1s linear;
+	transition: all .1s linear;
+}
+
+.header-link i {
+	font-style:normal;
+	font-size:1.5rem;
+	position:relative;
+	top:.1rem;
+	margin-right: .3rem;
+}
+
+.header-link:hover {
+	color: #777;
+}
+
+.header-link.num-comments {
+	float: right;
+	text-transform: uppercase;
+}
+
+.masthead.not-home-page {
+
+	margin-bottom: 2rem;
+	
+	@media (max-width: 800px) {
+		margin-bottom: 1rem;
+		padding-top: 0;
+	}
+	
+}

@@ -34,30 +34,3 @@ footer {
 article.post h2 {
 	margin-top: 2rem;
 }
-
-nav {
-	margin-top: 1rem;
-	margin-left: 2rem;
-}
-
-.back-to-home {
-	color: #bbb;
-	padding: .5rem 1rem;
-	text-align: center;
-	text-decoration: none !important;
-	-webkit-transition: all .1s linear;
-	-moz-transition: all .1s linear;
-	transition: all .1s linear;
-}
-
-.back-to-home i {
-	font-style:normal;
-	font-size:1.5rem;
-	position:relative;
-	top:.1rem;
-	margin-right: .3rem;
-}
-
-.back-to-home:hover {
-	color: #777;
-}

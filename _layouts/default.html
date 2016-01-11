@@ -18,9 +18,10 @@
 	  
     {% else %}
       
-	   <header class="masthead" style="margin-bottom:2rem;">
+	   <header class="masthead not-home-page">
 		<nav>
-			<a class="back-to-home" href="{{ site.baseurl }}/" title="Back to home"><i>&lsaquo;</i> BACK</a>
+			<a class="back-to-home" href="{{ site.baseurl }}/"><i>&lsaquo;</i> BACK</a>
+			{% if page.comments %}<a class="header-link num-comments" href="#disqus_thread">0 comments</a>{% endif %}
 		</nav>
       </header>
 	  
