@@ -16,7 +16,7 @@ layout: default
   </div>
   {{ content }}
   <div id="social-links">
-	<a href='https://twitter.com/intent/tweet?text="{{ page.title | cgi_escape }}"&via=gamehelp16&url={{ page.url | cgi_escape }}' target="_blank">
+	<a href='https://twitter.com/intent/tweet?text="{{ page.title | cgi_escape }}"&via=gamehelp16&url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}' target="_blank">
 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACuklEQVRIS7WVS0hUYRTHz/luD1Ok8WpSEGkEbWyRELQoJEuCoFo4905alEUQZIQuokWETbgIamHQIgx6YIvQe8chbBdBEm1aVIsQWiRBCL5m7vQYezD3nM6dVHQc545jfpthuP/v//vO4zsfwgovXGF/KBgQikw2AOBxIqgCxElEfDahB568rMeUd+iTPaMlrla0Jg0w7fh5oFTUClWO+kVk9rHGKn4fAVsytS7iG0XcqYAPMGNdSfLrnjQgaE8MA2g/FdFBK1QxkgsSsmKdjHg1l4YAviHzIU1TyWnApKtAKfkwggzNtqm/ymZw9OlE6drf2igoKM4NoE+KsBQ1PjEDGBfABm8TARGCuoeUup6ZMrM/sV8+v/BLoxw0qQE09xn6wDQg9lABnp67UUS/5L+lEHrBTQ0K7IdhxQ8jwkAegFsRQ7/s6dKAxohTpbnue8lSINtmLyoANayAvstvrR+AkTvtYHlHGnCum1cnKpweYh5n4AuSKolu2avVMvS7sxEEbeejtNb2ZdtOGzBD3UyjpFNkRJx2aauu/wIgmJL+L390ZqtXw3818C4PQCwqNTiybAhhxAqVGTM+s6MiDVHxNgK+KHWoLhTErBpsMzDbynMA8S2k8Lkit3KxbvKFEry2Qvreubp5wy5ox27LfWjzNcray5RS2qrdvcHA20UB4TCroZrETRfd9qW2KyNcsYP6jUx21nHdFHWqXZeb5HZdUwBFfhEx4APbKDubTbcAYPZ9WYeqpIUJOmSobcrDvGvHh8ClcBjlPAsXGpazTyHXuMCVyLhTpmm9GJf6GjOOiabVNsv6c2nRa09UTrOMCSku7vIzlrn0WerTXTT1587jUxuTfvp5KToWTWwjInmNoBaBNsurVCw3PImaNgZMQ4jaYG/j+nfyRLKf8YKLlu+GpeoKfvTzBf0FvUEJZMOo4uIAAAAASUVORK5CYII=">Share to Twitter</a>
 	<!-- Icon Source: https://www.iconfinder.com/icons/317720/social_social_media_tweet_twitter_icon -->
 	<a href="https://github.com/gamehelp16/gamehelp16.github.io/tree/master/{{ page.path }}" target="_blank">
