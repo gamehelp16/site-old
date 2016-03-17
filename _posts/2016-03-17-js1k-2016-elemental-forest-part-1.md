@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JS1k 2016: Elemental Forest - Part 1
+title: "JS1k 2016 Elemental Forest - Part 1"
 description: The first part of my post-mortem blog post about my 2016 JS1k entry 'Elemental Forest'
 comments: true
 ---
