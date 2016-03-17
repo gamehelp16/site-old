@@ -16,7 +16,7 @@ This demo is inspired by [Grove](https://www.androidexperiments.com/experiment/g
 
 In this and the next post I will explain the code that works behind the demo, but before that let's look at the 'original' source of the demo! (You will know why the word 'original' is quoted)
 
-{% gist d4f7260c31d98261ccbb }
+{% gist d4f7260c31d98261ccbb %}
 
 The code was then passed through [Closure Compiler](https://closure-compiler.appspot.com/) and [RegPack](http://siorki.github.io/regPack.html), which is a little improvement from the past years because I haven't discovered RegPack yet and used [JS Crush](http://www.iteral.com/jscrush/) instead which is pretty good already. Also, if you're wondering, the original original source was 1688 bytes long and then crushed into to 1004 bytes (-684B, -40.52%). Yes, I copied that data and that's how I knew that I didn't recover the whole original source successfully.
 
