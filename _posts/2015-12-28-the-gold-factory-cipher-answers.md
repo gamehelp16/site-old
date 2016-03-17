@@ -32,7 +32,8 @@ Now you have <span id="gb">0</span> gold bars.
 
 In the early game, you can solve some codes to earn some extra gold bars to save some waiting time. Apparently some of the codes are pretty hard to solve (especially the last one). Even though there are already many answers floating around the internet, I decided to make this post to tell you the answers and the steps to do that.
 
-##The First Code
+The First Code
+--------------
 
 > 13-1-19-20-5-18 2-18-1-14-3-8
 
@@ -40,7 +41,8 @@ This one is a very simple one, each number represents a letter where 1 = A, 2 = 
 
 Great! You have earned yourself 200 gold bars! Now you have <span id="gb-200">200</span> gold bars.
 
-##The Second Code
+The Second Code
+---------------
 
 > Lzwjw ak s ljwskmjw zavvwf kgewozwjw, al ak dguslwv sl s kwujwl hdsuw af lzw Hsuaxau Guwsf
 
@@ -50,7 +52,8 @@ For the second code, I used a technique called "[Caesarian Shift](http://rumkin.
 
 Now you have earned another 1000 gold bars! You have <span id="gb-1200">1200</span> gold bars.
 
-##The Third Code
+The Third Code
+--------------
 
 > Om s ept;f gi;; pg n;pvld
 
@@ -58,7 +61,8 @@ For this one you will need to look at your keyboard (a [US standard QWERTY keybo
 
 2000 gold bars has been earned! Now you have <span id="gb-3200">3200</span> gold bars.
 
-##The Fourth Code
+The Fourth Code
+---------------
 
 > VGhlIHBsYW50IGlzIGZhbW91cyBiZWNhdXNlIG9mIHRoZSBhYmlsaXR5IHRvIGN1cmUgc29tZSBkaXNlYXNlcw==
 
@@ -68,7 +72,8 @@ The answer is: `The plant is famous because of the ability to cure some diseases
 
 Great! 2500 more gold bars! Now you have <span id="gb-5700">5700</span> of them!
 
-##The Fifth Code
+The Fifth Code
+--------------
 
 > towiiag g se&nbsp;&nbsp;&nbsp;rir,oaoan&nbsp;&nbsp;&nbsp;ft ofo srtod tddyi ot mdy lugelelmwon foemsthiuaa ttclntclga&nbsp;&nbsp;bhhs
 
