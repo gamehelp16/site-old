@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JS1k 2016 Elemental Forest - Part 1"
+title: "JS1k 2016: Elemental Forest - Part 1"
 description: The first part of my post-mortem blog post about my 2016 JS1k entry 'Elemental Forest'
 comments: true
 ---
@@ -21,7 +21,6 @@ In this and the next post I will explain the code that works behind the demo, bu
 The code was then passed through [Closure Compiler](https://closure-compiler.appspot.com/) and [RegPack](http://siorki.github.io/regPack.html), which is a little improvement from the past years because I haven't discovered RegPack yet and used [JS Crush](http://www.iteral.com/jscrush/) instead which is pretty good already. Also, if you're wondering, the original original source was 1688 bytes long and then crushed into to 1004 bytes (-684B, -40.52%). Yes, I copied that data and that's how I knew that I didn't recover the whole original source successfully.
 
 ##The Trees
-
 I decided to talk about these first and in a separate section because let's face it, most of the things you see in the demo are just trees. If you watched the demo long enough, you will discover that there are two types of trees, the 'normal trees', and the 'triangle trees'. I will only cover the normal ones because the triangle trees literally are just triangles.
 
 The function that draws trees is named `T()` and could be found on lines 91-122 of the gist. The parameters `x` and `y` contain the x and y positions of the tree, and the parameter `z` is used only to determine whether to show the normal or triangle trees.
