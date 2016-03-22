@@ -29,4 +29,4 @@ The function that draws trees is named `T()` and could be found on lines 91-122 
 The trunk of the normal trees are made of two lines with the line width of `r()*12+28` (`r()` is a seeded random number generator function). The leaves are a little bit more complex, and I recommend you to watch the [4th episode](https://www.youtube.com/watch?v=SoYnZHBP-6M) of Coding Math first. In the end of the video you could see circles that are drawn in a circle shape using simple trigonometry, and that's almost exactly how the leaves are drawn. But instead of drawing circles, the position is used for the `lineTo` (or `moveTo`) function and then `fill` will be called. To make the trees look a little bit different for each of them, the radius of the 
 'big circle' and the angle between each points are a little bit randomized.
 
-In the next part I will cover about the rest of the stuff in the code, thank you for reading!
+In the <a href="{{ site.url }}{% post_url 2016-03-22-js1k-2016-elemental-forest-part-2 %}">next part</a> I will cover about the rest of the stuff in the code, thank you for reading!
