@@ -10,7 +10,7 @@ This year is my third year participating in [JS1k](http://js1k.com/), a contest 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">⚛ Elemental Forest is a <a href="https://twitter.com/hashtag/js1k?src=hash">#js1k</a> demo by Richard Sudaryono (<a href="https://twitter.com/gamehelp16">@gamehelp16</a>) <a href="https://t.co/lU2HABTCET">https://t.co/lU2HABTCET</a> <a href="https://t.co/6FtaPd5LQg">pic.twitter.com/6FtaPd5LQg</a></p>&mdash; JS1K (@js1k) <a href="https://twitter.com/js1k/status/700049453919637504">February 17, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This demo is inspired by [Grove](https://www.androidexperiments.com/experiment/grove), an Android Experiment by Simon Geilfus. Also, thanks to [Coding Math](https://www.youtube.com/user/codingmath) YouTube channel for the awesome tutorials, without it my submission this year probably will just be another text based one.
+This demo was inspired by [Grove](https://www.androidexperiments.com/experiment/grove), an Android Experiment by Simon Geilfus. Also, I would like to thank [Coding Math](https://www.youtube.com/user/codingmath) YouTube channel for the awesome tutorials. Without it my submission this year probably would just be another text based one.
 
 ---
 
@@ -18,7 +18,7 @@ In this and the next post I will explain the code that works behind the demo, bu
 
 {% gist d4f7260c31d98261ccbb %}
 
-The code was then passed through [Closure Compiler](https://closure-compiler.appspot.com/) and [RegPack](http://siorki.github.io/regPack.html), which is a little improvement from the past years because I haven't discovered RegPack yet and used [JS Crush](http://www.iteral.com/jscrush/) instead which is pretty good already. Also, if you're wondering, the original original source was 1688 bytes long and then crushed into to 1004 bytes (-684B, -40.52%). Yes, I copied that data and that's how I knew that I didn't recover the whole original source successfully.
+The code was then passed through [Closure Compiler](https://closure-compiler.appspot.com/) and [RegPack](http://siorki.github.io/regPack.html), which is a little improvement from the past years because I haven't discovered RegPack yet and used [JS Crush](http://www.iteral.com/jscrush/) instead which is pretty good already. Also, if you're wondering, the original original source was 1688 bytes long and then crushed into 1004 bytes (-684B, -40.52%). Yes, I copied that data and that's how I knew that I didn't recover the whole original source successfully.
 
 ## The Trees
 
