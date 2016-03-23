@@ -5,7 +5,7 @@
 
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: monospace;
 }
 
 code {
@@ -30,11 +30,10 @@ pre code {
 
 // Pygments via Jekyll
 .highlight {
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: #f9f9f9;
   border-radius: .25rem;
 
   pre {
