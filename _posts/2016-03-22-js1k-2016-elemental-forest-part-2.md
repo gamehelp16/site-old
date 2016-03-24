@@ -9,6 +9,8 @@ In the <a href="{{ site.url }}{% post_url 2016-03-17-js1k-2016-elemental-forest-
 
 ## The Rest of the Stuff
 
+This time I will separate the code into chunks and explain them one by one.
+
 {% highlight javascript linenos %}
 for(k=200;k--;)t.push([Math.sin(k*(Math.PI/180))*500-250,150+Math.cos(k/30)*50,180-k,Math.random(),k]); //[x,y,z,seed,tree type]
 {% endhighlight %}
