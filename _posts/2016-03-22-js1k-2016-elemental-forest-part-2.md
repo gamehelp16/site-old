@@ -13,7 +13,7 @@ In the <a href="{{ site.url }}{% post_url 2016-03-17-js1k-2016-elemental-forest-
 for(k=200;k--;)t.push([Math.sin(k*(Math.PI/180))*500-250,150+Math.cos(k/30)*50,180-k,Math.random(),k]); //[x,y,z,seed,tree type]
 {% endhighlight %}
 	
-This piece of code adds 200 elements to the array `t[]` which is the "road data" array. If you didn't know the road actually consists of rectangles with certain size and position, and each rectangle corresponds to an element in the array. The elements put into the `t[]` array are actually another set of arrays, the first three indexes contain the x, y and z position of the road, the fourth index contains a random number as a seed for the trees beside the "road rectangle", and the fifth index contains the "how manieth road that is" to determine which type of tree to show.
+This piece of code adds 200 elements to the array `t[]` which is the "road data" array. If you didn't know the road actually consists of rectangles with certain size and position, and each rectangle corresponds to an element in the array. The elements put into the `t[]` array are actually another set of arrays. The first three indexes contain the x, y and z position of the road, the fourth index contains a random number as a seed for the trees beside the "road rectangle", and the fifth index contains the "how manieth road that is" to determine which type of tree to show.
 
 {% highlight javascript linenos %}
 function r(x,y,z) {
@@ -67,9 +67,9 @@ c.scale(p,p);
 r();
 {% endhighlight %}
 
-The '3d' technique used in this demo is actually from Episode 22 of [Coding Math](https://www.youtube.com/watch?v=MGj7fnQdpE4) called 'Postcards in Space', so you might want to watch it first (yeah I know that this technique probably is popular and commonly used, but I learned it from the video). The `p` variable contains how big something will be from it's original size based on it's z position from 0 to 1, so further things will be smaller. Then the seed (the `s` variable) is changed to the seed from the road data. After that, the canvas is translated to follow the curves of the road which doesn't seem to be perfect, but it is what it is. And lastly the canvas is scaled to the value of the `p` variable.
+The '3d' technique used in this demo is actually from Episode 22 of [Coding Math](https://www.youtube.com/watch?v=MGj7fnQdpE4) titled 'Postcards in Space', so you might want to watch it first (yeah I know that this technique probably is popular and commonly used, but I learned it from the video). The `p` variable contains how big something will be from it's original size based on it's z position from 0 to 1, so further things will be smaller. Then the seed (the `s` variable) is changed to the seed from the road data. After that, the canvas is translated to follow the curves of the road which doesn't seem to be perfect, but it is what it is. And lastly the canvas is scaled to the value of the `p` variable.
 
-You could also see that there is a `r()` function being called although it seems to be useless. Well, I don't know why but if you didn't call that function the road edges will be smooth even though their position is supposed to be random.
+You could also see that there is a `r()` function being called although it seems to be useless. Well, I don't know why but if you didn't call that function the road edges would be smooth even though the road position is supposed to be randomized a little bit.
 
 {% highlight javascript linenos %}
 c.fillStyle = "hsl("+[e,"90%",g-30+t[k][2]/13]+"%)";
@@ -78,7 +78,7 @@ c.fillStyle = "hsl("+[e,"90%",g-25+t[k][2]/13]+"%)";
 c.fillRect(t[k][0]-50*r(),t[k][1],500,20); 
 {% endhighlight %}
 
-This part of code sets the color of the road rectangles and draws them. This code draws the path (the one with lighter color), and the "ground" (the one with the darker color). I hope you understand what I meant with "path" and "ground".
+This part of code sets the color of the road rectangles and draws them. This code draws the path (the one with lighter color), and the "ground" (the one with the darker color). I hope you understand what I meant with the "path" and the "ground".
 
 {% highlight javascript linenos %}
 c.fillStyle = c.strokeStyle = "hsla("+[e,"90%",t[k][2]/8+15+r()*3+"%",1-(t[k][2]-150)/30]+")";
@@ -95,6 +95,6 @@ f++;
 requestAnimationFrame(R)
 {% endhighlight %}
 
-This is pretty simple, it increments the `f` variable, which is used in the somewhere else code. And the last line will call the `R()` function again using the `requestAnimationFrame()` function.
+This is pretty simple, it increments the `f` variable, which is used in the code somewhere else. And the last line will call the `R()` function again using the `requestAnimationFrame()` function.
 
 And that's it, the code behind my demo and the explanation. I hope you find this useful, thank you for reading!

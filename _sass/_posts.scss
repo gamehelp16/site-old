@@ -88,3 +88,17 @@
 iframe#twitter-widget-0 {
 	margin: 30px auto !important;
 }
+
+// Images in posts
+
+article.post img {
+	margin: 2rem auto .5rem auto;
+}
+
+.image-caption {
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	color: #888;
+	margin-bottom: 1rem;
+}

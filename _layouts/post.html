@@ -9,6 +9,16 @@ layout: default
   {% if minutes == 0 %}{% assign minutes = 1 %}{% endif %}
 {% endif %}
 
+<script>
+window.onload = function() {
+	var a = document.getElementsByClassName("post")[0].getElementsByTagName("img");
+	for(i=0;i<a.length;i++) {
+		b = a[i];
+		if(b.title != "") b.insertAdjacentHTML('afterend', '<div class="image-caption">' + b.title + '</div>');
+	}
+}
+</script>
+
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-date">
