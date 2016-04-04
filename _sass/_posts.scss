@@ -24,10 +24,14 @@
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
   color: #9a9a9a;
 }
 
+.post-desc {
+	color: #9a9a9a;
+	margin-top: -.3rem;
+	margin-bottom: 1rem;
+}
 
 // Related posts
 .related {
@@ -61,6 +65,13 @@
   }
 }
 
+.recommended-header {
+	color: #c7c7c7;
+	font-weight: normal;
+	font-family: Source Sans Pro;
+	letter-spacing: 5px;
+}
+
 // Social Links
 #social-links a:last-child {
 	float: right;
@@ -90,6 +101,18 @@ iframe#twitter-widget-0 {
 }
 
 // Images in posts
+
+.image-wrapper {
+	margin: 2rem auto;
+}
+
+.image-wrapper img {
+	max-width: calc(100% + 3rem);
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+    border-radius: 0;
+}
 
 .image-caption {
 	text-align: center;

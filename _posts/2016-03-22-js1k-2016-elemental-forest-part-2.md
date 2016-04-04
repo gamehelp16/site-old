@@ -57,7 +57,10 @@ k=(K+(f%200))%200;
 
 We are now inside the `for` loop, and I would like to highlight this line specifically. Each frame, the "road rectangle" which is located nearest to the camera will be "pushed back" to the most behind part. Therefore, if we loop by the index of the road data and draw them in that order then things that should not be visible because it is blocked by things in front of them may overlap the things that block them. I know that my explanation is bad, so here's an image of what I was talking about.
 
-![The Overlap]({{ site.url }}/public/overlap.png 'How Can Mirrors Be Real If Our Eyes Aren't Real?')
+{% include image.html
+            img = "public/overlap.png"
+            title = "The Overlap"
+            caption = "How Can Mirrors Be Real If Our Eyes Aren't Real?" %}
 
 What the code does is manipulate the `K` loop variable so it actually starts from things that are behind to the things nearest to the camera, so the overlap issue won't happen anymore (sorry for the bad explanation, it's kind of complicated). And yes, I have tried sorting the array based on the z values, but it seemed to be complicated (or I was too lazy to deal with it).
 
