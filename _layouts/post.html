@@ -14,7 +14,6 @@ layout: default
 	<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> - {{ minutes }} minute read
   </div>
   <h1 class="post-title">{{ page.title }}</h1>
-  <div class="post-desc">{{ page.description }}</div>
   
   {{ content }}
   
@@ -35,14 +34,14 @@ layout: default
 		{% assign url = page.next.url %}
 		{% assign title = page.next.title %}
 		{% assign date = page.next.date | date_to_string %}
-		{% assign desc = page.next.description %}
+		{% assign desc = page.next.excerpt | strip_html %}
 	{% else %}
 		{% assign header = "RECOMMENDED" %}
 		{% for post in site.related_posts limit:1 %}
 			{% assign url = post.url %}
 			{% assign title = post.title %}
 			{% assign date = post.date | date_to_string %}
-			{% assign desc = post.description %}
+			{% assign desc = post.excerpt | strip_html %}
 		{% endfor %}
 	{% endif %}
 	
