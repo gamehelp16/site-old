@@ -58,7 +58,7 @@ k=(K+(f%200))%200;
 We are now inside the `for` loop, and I would like to highlight this line specifically. Each frame, the "road rectangle" which is located nearest to the camera will be "pushed back" to the most behind part. Therefore, if we loop by the index of the road data and draw them in that order then things that should not be visible because it is blocked by things in front of them may overlap the things that block them. I know that my explanation is bad, so here's an image of what I was talking about.
 
 {% include image.html
-            img = "public/overlap.png"
+            img = "overlap.png"
             title = "The Overlap"
             caption = "How Can Mirrors Be Real If Our Eyes Aren't Real?" %}
 

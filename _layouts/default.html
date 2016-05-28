@@ -10,15 +10,15 @@
 	{% if page.title == "Home" %}
       
       <header class="masthead home-page">
-        <h3 class="masthead-title">
-          <a href="{{ site.url }}/" title="Home">{{ site.title }}</a>
+        <h1 class="masthead-title">
+          <a href="{{ site.url }}/">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
-        </h3>
+        </h1>
       </header>
 	  
     {% else %}
       
-	   <header class="masthead not-home-page">
+	  <header class="masthead not-home-page">
 		<nav>
 			<a class="header-link" href="{{ site.url }}/"><i>&lsaquo;</i> BACK</a>
 			{% if page.comments %}<a class="header-link num-comments" href="#disqus_thread">0 comments</a>{% endif %}

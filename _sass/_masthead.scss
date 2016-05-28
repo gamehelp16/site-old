@@ -1,6 +1,6 @@
 // Masthead
 //
-// Super small header above the content for site name and short description.
+// Super small (well, not small anymore) header above the content for site name and short description.
 
 .masthead {
   padding-top:    1rem;
@@ -12,16 +12,29 @@
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  text-align: center;
+  font-size: 35px;
+  
+  @media (min-width: 38em) {
+    font-size: 40px;
+  }
 
   a {
     color: #505050;
   }
 
   small {
-    font-size: 75%;
+    font-size: 20px;
     font-weight: 400;
     color: #c0c0c0;
     letter-spacing: 0;
+	display: block;
+	margin-top: 10px;
+	
+	@media (min-width: 38em) {
+		font-size: 25px;
+	}
+	
   }
 }
 
@@ -63,6 +76,17 @@ nav {
 .header-link.num-comments {
 	float: right;
 	text-transform: uppercase;
+}
+
+.masthead.home-page {
+	background: whiteSmoke;
+	max-width: none;
+	padding: 75px 50px;
+	
+	@media (min-width: 38em) {
+		padding: 100px 50px;
+	}
+	
 }
 
 .masthead.not-home-page {
