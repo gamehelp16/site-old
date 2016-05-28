@@ -5,26 +5,7 @@ description: The answers and explanation to my game 'The Gold Factory'
 comments: true
 ---
 
-<script>
-window.onload = function() {
-	var gold = 0;
-	update();
-	setInterval(function() {
-		gold++;
-		update();
-	}, 1000)
-	function update() {
-		document.getElementById("gb").innerHTML = gold;
-		document.getElementById("gb-200").innerHTML = gold + 200;
-		document.getElementById("gb-1200").innerHTML = gold + 1200;
-		document.getElementById("gb-3200").innerHTML = gold + 3200;
-		document.getElementById("gb-5700").innerHTML = gold + 5700;
-		document.getElementById("gb-13200").innerHTML = gold + 13200;
-	}
-};
-</script>
-
-This post is about my first incremental game [The Gold Factory](http://gamehelp16.github.io/thegoldfactory/). If you haven't played it yet then probably you want to play it first before reading this post.
+*This post is about my first incremental game [The Gold Factory](http://gamehelp16.github.io/thegoldfactory/). If you haven't played it yet then probably you want to play it first before reading this post.*
 
 ***WARNING:*** *As the title says, this post contains answers to the cipher codes in the game. If you want to try solving them first then please stop reading.*
 
@@ -85,3 +66,22 @@ The answer to this code is `the gold factory was built long time ago, and it is 
 Congratulations! Now you have solved the final ultimate code and earned a nice amount of 7500 gold bars! You have <span id="gb-13200">13200</span> gold bars now!
 
 And that's it guys, the guide to solve those 5 codes. Now go buy some pizzas! :)
+
+<script>
+window.onload = function() {
+	var gold = 0;
+	update();
+	setInterval(function() {
+		gold++;
+		update();
+	}, 1000)
+	function update() {
+		document.getElementById("gb").innerHTML = gold;
+		document.getElementById("gb-200").innerHTML = gold + 200;
+		document.getElementById("gb-1200").innerHTML = gold + 1200;
+		document.getElementById("gb-3200").innerHTML = gold + 3200;
+		document.getElementById("gb-5700").innerHTML = gold + 5700;
+		document.getElementById("gb-13200").innerHTML = gold + 13200;
+	}
+};
+</script>
