@@ -138,7 +138,7 @@
 	  <header class="masthead not-home-page">
 		<nav>
 			<a class="header-link" href="{{ site.url }}/"><i>&lsaquo;</i> BACK</a>
-			{% if page.comments %}<a class="header-link num-comments" href="#disqus_thread">COMMENTS</a>{% endif %}
+			{% if page.comments %}<a class="header-link num-comments" href="#disqus_thread" data-disqus-identifier="{{ site.disqusid }}{{ page.url | replace:'index.html','' }}">COMMENTS</a>{% endif %}
 		</nav>
       </header>
 	  
