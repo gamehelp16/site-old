@@ -46,6 +46,7 @@ pre code {
     padding-right: .75rem;
     padding-left: .25rem;
     color: #999;
+	margin-top: 1px;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -57,9 +58,14 @@ pre code {
 	border: none;
 }
 
+.hightlight table {
+	margin-bottom: none;
+}
+
 .highlight td {
 	padding: 1rem;
-	background: #f5f5f5;
+	background: #eee !important;
+	vertical-align: top;
 }
 
 // Gist via GitHub Pages

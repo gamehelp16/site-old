@@ -7,7 +7,7 @@ permalink:           /post/:title/
 # Setup
 title:               Title
 tagline:             Insert Tagline Here
-url:                 http://gamehelp16.github.io
+url:                 https://gamehelp16.github.io
 paginate:            1
 baseurl:             ""
 
@@ -27,3 +27,4 @@ author:
 version:             1.0.0
 github:
   repo:              https://github.com/gamehelp16/gamehelp16.github.io
+enforce_ssl:         gamehelp16.github.io
