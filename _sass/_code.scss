@@ -58,13 +58,17 @@ pre code {
 	border: none;
 }
 
-.hightlight table {
-	margin-bottom: none;
+.highlight table {
+	margin-bottom: 0;
+}
+
+.highlight td:first-child {
+	width: 78px;
 }
 
 .highlight td {
-	padding: 1rem;
-	background: #eee !important;
+	padding: 1rem 1rem .67rem 1rem;
+	background: #f4f4f4 !important;
 	vertical-align: top;
 }
 
