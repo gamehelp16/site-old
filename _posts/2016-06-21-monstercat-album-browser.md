@@ -18,4 +18,4 @@ On the site you can click tracks to play them right on that page, click the genr
 
 The data of the albums are stored in JSON files inside the [/albums](https://github.com/gamehelp16/monstercat-browser/tree/gh-pages/albums) folder, and you can help with adding album data by going [here](https://gamehelp16.github.io/monstercat-browser/albumdata.html).
 
-Last but not least, the GitHub Repo of the project can be found [here](https://github.com/gamehelp16/monstercat-browser), thank you for reading!
+Last but not least, the GitHub Repo of the project can be found [here](https://github.com/gamehelp16/monstercat-browser). Thank you for reading!
