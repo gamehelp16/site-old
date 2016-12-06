@@ -8,7 +8,7 @@ permalink:           /post/:title/
 title:               Title
 tagline:             Insert Tagline Here
 url:                 https://gamehelp16.github.io
-paginate:            1
+#paginate:            1
 baseurl:             ""
 
 # Assets
@@ -28,3 +28,6 @@ version:             1.0.0
 github:
   repo:              https://github.com/gamehelp16/gamehelp16.github.io
 enforce_ssl:         gamehelp16.github.io
+
+# Gems
+gems: [jekyll-paginate, jekyll-gist]
